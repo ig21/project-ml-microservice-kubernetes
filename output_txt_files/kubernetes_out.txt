@@ -1,0 +1,6 @@
+NAMESPACE     NAME                               READY   STATUS    RESTARTS   AGE
+default       boston-prices                      1/1     Running   0          30s
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
