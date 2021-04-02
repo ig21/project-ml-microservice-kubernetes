@@ -33,7 +33,7 @@ In this project we are given a pre-trained, `sklearn` model that has been traine
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
-4. Prediction application will be running on http://<hostip>:8000
+4. Prediction application will be running on http://hostip:8000
 5. While it is running execute make_predicion.sh to invoke predicting application in the conainer app.py via API calls
 
 ### Kubernetes Steps
