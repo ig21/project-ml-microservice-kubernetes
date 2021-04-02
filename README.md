@@ -1,4 +1,5 @@
-[![CircleCI](https://circleci.com/gh/ig21/project-ml-microservice-kubernetes/tree/master.svg?style=svg)](https://circleci.com/gh/ig21/project-ml-microservice-kubernetes/tree/master)
+[![CircleCI](https://circleci.com/gh/ig21/project-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/ig21/project-ml-microservice-kubernetes)
+
 
 ## Project Overview
 
