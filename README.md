@@ -43,14 +43,14 @@ In this project we are given a pre-trained, `sklearn` model that has been traine
 * Create Flask app in Container
 * Run via kubectl
 
-## Project Files
+## Project Files Overview
 
 * __.circleci/config.yml:__ Configuration file for CircleCI
+* __Dockerfile:__ Spec that isntructs docker how to buil application container
+* __Makefile:__ All the required commands to install and lint the applicaiton
 * __app.py:__ Boston housing prices predicting application 
 * __requirements.txt:__ List of required packages to be installed for our application to run
 * __model_data/boston_housing_prediction.joblib:__ Pre-trained, `sklearn` model that has been trained to predict housing prices in Boston, used by app.py
-* __Dockerfile:__ Spec that isntructs docker how to buil application container
-* __Makefile:__ All the required commands to install and lint the applicaiton
 * __run_docker.sh:__ Shell script that builds and runs the docker container
 * __run_kubernetes.sh:__ Shell script that runs prediction app as a pod in kubernetes
 * __make_prediction.sh:__ Prediction application invokation script 
